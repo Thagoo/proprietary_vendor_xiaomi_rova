@@ -22,11 +22,6 @@ PRODUCT_PACKAGES += \
     libts_face_beautify_hal
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/rova/proprietary/vendor/lib/vndk/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libbinder.so \
-    vendor/xiaomi/rova/proprietary/vendor/lib/vndk-sp/libcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk-sp/libcutils.so
-
-
-PRODUCT_COPY_FILES += \
     vendor/xiaomi/rova/proprietary/vendor/lib/hw/led/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/led/consumerir.default.so \
     vendor/xiaomi/rova/proprietary/vendor/lib64/hw/led/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/led/consumerir.default.so \
     vendor/xiaomi/rova/proprietary/vendor/lib/hw/spidev/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/spidev/consumerir.default.so \
